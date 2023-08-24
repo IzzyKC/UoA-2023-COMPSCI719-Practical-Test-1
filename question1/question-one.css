@@ -1,17 +1,29 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(./assets/fonts/RobotoSlab-VariableFont_wght.ttf);
+
+}
+
 p {
     padding: 25px;
     background-color: white;
     margin: 40px 0;
     text-align: justify;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15px;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #DBAF27;
     text-align: center;
+    text-shadow: 2px 2px 4px black;
 }
 
 body {
     background-color: gainsboro;
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
 }
 
 #container {
@@ -20,6 +32,7 @@ body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 10px 10px 5px grey;
 }
 
 hr {
@@ -29,4 +42,12 @@ hr {
     border-color: #DBAF27;
 }
 
+#goru-zanga-logo {
+    width: 150px;
+    margin: 25px;
+    float: right;
+}
 
+#div-foodzie-logo {
+    text-align: center;
+}
