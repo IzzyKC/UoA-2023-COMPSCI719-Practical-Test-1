@@ -1,0 +1,32 @@
+p {
+    padding: 25px;
+    background-color: white;
+    margin: 40px 0;
+    text-align: justify;
+}
+
+h1, h2 {
+    color: #DBAF27;
+    text-align: center;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+#container {
+    background-color: #FFE69A;
+    padding: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: 66%;
+    margin: 40px auto;
+    border-style: dashed;
+    border-color: #DBAF27;
+}
+
+
