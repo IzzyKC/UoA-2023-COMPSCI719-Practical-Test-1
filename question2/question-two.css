@@ -2,3 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 
 /* Your code here: */
+.header {
+    background-color: #80ced6;
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Borel', cursive;
+    margin-bottom: 0px;
+}
+
+.nav {
+    padding: 20px;
+    text-align: center;
+    background-color: darkgray;
+}
+
+.nav a {
+    font-family: Arial, cursive;
+    font-size: 1.8em;
+    color: white;
+    text-decoration: none;
+    padding: 80px;
+    margin: auto;
+}
+
+body {
+    margin: 0px;
+}
