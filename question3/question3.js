@@ -4,16 +4,16 @@ window.addEventListener("load", function(){
 
     cards.forEach(function (card) {
 
-        card.addEventListener("click", function(event) {
-            event.target.classList.toggle("card-clicked");
+        card.addEventListener("click", function() {
+            card.classList.toggle("card-clicked");
         })
 
     });
 
     const btnRestCardColor = document.querySelector("#resetCardColor");
     console.log(btnRestCardColor);
-    
-    btnRestCardColor.addEventListener("click", function(event){
+
+    btnRestCardColor.addEventListener("click", function(){
 
         cards.forEach(function (cardToggle) {
             cardToggle.classList.remove("card-clicked");
