@@ -16,7 +16,7 @@
 body {
   margin: 0px;
   background-color: #c6c6c6;
-  
+
 
 }
 
@@ -57,28 +57,39 @@ body {
 } 
 
 .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
 }
 
 .card, .header, .side-bar {
 
+
 }
 
 .card {
   width: 240px;
-
+  background-color: #f0e68c;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #a8a8a8;
+  margin: 10px;
 }
 
 .card img {
   width: 100%;
+  border-radius: inherit;
 
 }
 
 .card h2 {
-
+  margin: 15px 15px 5px 15px;
+  font-size: 1.6em;
 }
 
 .card p {
-
+  padding-bottom: 40px;
+  margin: 15px 15px 20px 15px;
+  color: gray;
 }
 
