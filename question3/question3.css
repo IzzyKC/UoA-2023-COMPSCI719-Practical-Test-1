@@ -15,12 +15,18 @@
 
 body {
   margin: 0px;
-  background-color: #c6c6c6;
-
-
+  background-color: #e1e1e1;
+  font-family: 'Raleway', sans-serif;
 }
 
 #grid-container {
+  display: grid;
+  grid-template-columns:0.2fr 1fr 2fr 0.2fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header header"
+  "nav nav nav nav"
+  ". sidebar cards .";
 
 }
 
@@ -31,6 +37,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  grid-area: nav;
 }
 
 .nav > a {
@@ -43,16 +50,29 @@ body {
 .header {
   color: #D14836;
   font-weight: bolder;
-  background-color: #f0e68c;
   text-align: center;
   padding: 40px;
+  grid-area: header;
 }
 
 .side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  grid-area: sidebar;
+  margin-top: 10px;
 
 }
 
 .side-bar > * {
+  background-color: #8e44ad;
+  color: #49c5b6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 30px;
+  font-size: 0.8em;
+  text-decoration: none;
 
 } 
 
@@ -60,19 +80,19 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  grid-area: cards;
 
 }
 
 .card, .header, .side-bar {
-
+  background-color: #f0e68c;
 
 }
 
 .card {
   width: 240px;
-  background-color: #f0e68c;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px #a8a8a8;
+  box-shadow: 5px 5px 5px #c6c6c6;
   margin: 10px;
 }
 
@@ -88,8 +108,36 @@ body {
 }
 
 .card p {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   margin: 15px 15px 20px 15px;
-  color: gray;
+  color: #666666;
+}
+
+@media screen and (max-width: 1025px) {
+
+  #grid-container {
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "header"
+      "nav"
+      "cards"
+      "sidebar";
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
