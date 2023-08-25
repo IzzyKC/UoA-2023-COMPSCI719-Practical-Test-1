@@ -32,3 +32,9 @@ h1 {
 body {
     margin: 0px;
 }
+
+.content {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
