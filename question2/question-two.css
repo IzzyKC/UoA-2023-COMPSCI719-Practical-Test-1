@@ -37,6 +37,7 @@ body {
 .content {
     width: 1200px;
     margin: auto;
+    position: relative;
 }
 
 #kitchen {
@@ -66,27 +67,27 @@ body {
 
 #butternut-squash {
     width: 290px;
-    top: 740px;
-    left: 560px;
+    top: 475px;
+    left: 480px;
 }
 
 #kumara {
     width: 250px;
-    top: 795px;
-    left: 840px;
+    top: 530px;
+    left: 760px;
 
 }
 
 #jam-jar {
     width: 100px;
-    top: 315px;
-    left: 795px;
+    top: 51px;
+    left: 718px;
 }
 
 #tomato-jar {
     width: 60px;
-    top: 290px;
-    left: 615px;
+    top: 28px;
+    left: 540px;
 }
 
 .food:hover {
