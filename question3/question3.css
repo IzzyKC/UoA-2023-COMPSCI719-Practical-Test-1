@@ -141,3 +141,7 @@ body {
 
 }
 
+.card-clicked {
+  background-color: hotpink;
+}
+
