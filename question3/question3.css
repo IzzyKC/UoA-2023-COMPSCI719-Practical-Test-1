@@ -145,3 +145,8 @@ body {
   background-color: hotpink;
 }
 
+#resetCardColor{
+  color: #49c5b6;
+  font-weight: bolder;
+  font-size: 1em;
+}
