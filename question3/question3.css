@@ -15,7 +15,7 @@
 
 body {
   margin: 0px;
-  background-color: #e1e1e1;
+  background-color: #c6c6c6;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -90,7 +90,7 @@ body {
 .card {
   width: 240px;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px #c6c6c6;
+  box-shadow: 5px 5px 5px #aaa9a9;
   margin: 10px;
 }
 
