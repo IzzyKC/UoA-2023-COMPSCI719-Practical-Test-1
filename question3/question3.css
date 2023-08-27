@@ -61,8 +61,7 @@ body {
   justify-content: space-between;
   padding: 15px;
   grid-area: sidebar;
-  margin-top: 10px;
-
+  margin: 10px ;
 }
 
 .side-bar > * {
@@ -81,7 +80,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   grid-area: cards;
-
 }
 
 .card, .header, .side-bar {
@@ -131,12 +129,17 @@ body {
 
   .card-container {
     flex-direction: column;
+
   }
 
   .card {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
 }
