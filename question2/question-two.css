@@ -15,7 +15,7 @@
 h1 {
     font-family: 'Borel', cursive;
     margin-bottom: 0px;
-    z-index: 1;
+    z-index: 0;
 }
 
 .nav {
@@ -49,7 +49,7 @@ body {
 
 .olives{
     width: 50px;
-    z-index: 2;
+    z-index: 1;
 }
 
 #olives-black {
